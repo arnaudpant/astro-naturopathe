@@ -2,14 +2,16 @@
 import Header from "@/components/Header.astro";
 import "../styles/global.css";
 import BaseHead from "./BaseHead.astro";
+import Footer from "@/components/Footer.astro";
 ---
 
 <!doctype html>
 <html lang="fr">
 	<BaseHead {...Astro.props} />
-	<body>
+	<body class="flex flex-col min-h-dvh">
 		<Header />
 		<slot />
+		<Footer />
 	</body>
 </html>
 
