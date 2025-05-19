@@ -10,7 +10,7 @@ type LinkNav = {
 
 export const baseData: HeadTitle = {
     title: "Naturopathe sophrologue coach sportif 26300 Marches",
-    description: "A FAIRE"
+    description: "Retrouvez votre poids de forme, gérez vos stress et retrouvez une activité physique avec Joelle Corda, naturopathe, sophrologue. 26300 Marches"
 }
 
 export const linksData: LinkNav[] = [
